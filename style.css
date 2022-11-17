@@ -7,7 +7,8 @@ body{font-family: "Roboto", sans-serif;
 font-size:26px}
 
 .web{color:#2196F3}
-.studio{color: #FFFFFF}
+
+.studio-nav{color:black}
 
 h1{font-size: 44px;
 font-weight: 900;
@@ -16,6 +17,7 @@ font-weight: 900;
 h2{font-size: 36px;
     font-weight: 700;
 }
+
 .button:hover, .button:focus{color:#FFFFFF;
 background-color: #2196F3;
 cursor: pointer;}
@@ -33,7 +35,9 @@ a:hover, a:focus{color:#2196F3}
     color:#757575}
 .localization{color:#FFFFFF}
 
- 
+ .logo-footer{font-family:"Raleway",sans-serif;
+    font-size:26px}
+    .studio-footer{color:white}
 footer{background-color: #2F303A;}
 
 
