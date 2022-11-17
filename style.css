@@ -1,0 +1,22 @@
+body{font-family: "Roboto", sans-serif;
+    color:black;
+    font-size:14px;
+    line-height: 1,71;
+}
+.logo{font-family:"Raleway",sans-serif;
+font-size:26px}
+.web{color:#2196F3}
+h1{font-size: 44px;}
+
+.contacts a{color:#757575}
+a{text-decoration: none;}
+.button:hover, .button:focus{}
+
+a:hover, a:focus{color:#2196F3}
+
+
+
+ 
+
+
+
