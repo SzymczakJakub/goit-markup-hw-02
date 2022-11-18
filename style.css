@@ -76,6 +76,9 @@ a {
   text-decoration: none;
   
 }
+.contacts-footer a {
+    color: rgba(255, 255, 255, 0.6);
+  }
 a:hover,
 a:focus {
   color: var(--blue);
@@ -104,9 +107,7 @@ ul {
 footer {
   background-color: #2f303a;
 }
-.contacts-footer a {
-  color: rgba(255, 255, 255, 0.6);
-}
+
 
 address {
   font-style: normal;
