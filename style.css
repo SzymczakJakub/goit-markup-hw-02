@@ -139,7 +139,10 @@ a:focus {
   color: var(--light-grey);
   text-decoration: none;
 }
-
+.contacts-footer a:hover,
+a:focus {
+  color: var(--blue);
+}
 .ending {
   background-color: var(--background-footer);
 }
