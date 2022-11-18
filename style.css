@@ -45,7 +45,10 @@ a:focus {
   color: var(--grey);
   text-decoration: none;
 }
-
+.contacts-header a:hover,
+a:focus {
+  color: var(--blue);
+}
 .page-theme h1 {
   font-size: 44px;
   font-weight: 900;
@@ -102,8 +105,6 @@ a:focus {
   color: var(--white);
   background-color: var(--blue);
 }
-
-
 
 .buttons {
   list-style: none;
