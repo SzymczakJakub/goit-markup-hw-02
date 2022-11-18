@@ -1,50 +1,108 @@
-body{font-family: "Roboto", sans-serif;
-    color:black;
-    font-size:14px;
-    line-height: 1,71;}
-
-.logo{font-family:"Raleway",sans-serif;
-font-size:26px}
-
-.web{color:#2196F3}
-
-.studio-nav{color:black}
-
-h1{font-size: 44px;
-font-weight: 900;
-letter-spacing: 0.06em
+body {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 14px;
+  line-height: 1, 71;
 }
 
-h2{font-size: 36px;
-    font-weight: 700;
-    letter-spacing: 0.03em
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  color: #2196f3;
+}
+.nav-list a{
+  font-family: "roboto", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0, 02em;
+  color: #212121;
+}
+.studio-black {
+  color: black;
+}
+.studio-white {
+  color: #ffffff;
+}
+h1 {
+  font-size: 44px;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+}
+input {
+  color: #ffffff;
+  background-color: #2196f3;
+  width: 200px;
+  height: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
-.button:hover, .button:focus{color:#FFFFFF;
-background-color: #2196F3;
-cursor: pointer;}
+h3 {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0, 03em;
+}
+p {
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0, 03em;
+  color: #757575;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
 
-.contacts a{color:#757575}
+.button:hover,
+.button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
 
-a{text-decoration: none;}
-a:hover, a:focus{color:#2196F3}
+.contacts-logo a {
+  color: #757575;
+}
 
-.upper-text{font-size: 16;
-    font-weight: 500;
-    letter-spacing: 0.03em;}
-    
-    .lower-text{font-size: 16;
-    font-weight: 400;
-    color:#757575;
-    letter-spacing: 0.03em;}
-.localization{color:#FFFFFF}
+a {
+  text-decoration: none;
+  
+}
+a:hover,
+a:focus {
+  color: #2196f3;
+}
 
- .logo-footer{font-family:"Raleway",sans-serif;
-    font-size:26px;
-    letter-spacing: 0.03em}
-    .studio-footer{color:white}
-footer{background-color: #2F303A;}
+.upper-text {
+  font-size: 16;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
 
+.lower-text {
+  font-size: 16;
+  font-weight: 400;
+  color: #757575;
+  letter-spacing: 0.03em;
+}
+.localization {
+  color: #ffffff;
+}
 
+ul {
+  list-style: none;
+}
 
+footer {
+  background-color: #2f303a;
+}
+.contacts-footer a {
+  color: rgba(255, 255, 255, 0.6);
+}
 
+address {
+  font-style: normal;
+}
